@@ -1,0 +1,40 @@
+header
+{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    background-color: black;
+
+    
+    .wrap
+    {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 980px;
+        min-height: 80px;
+        position: relative;
+
+        
+        .logo
+        {
+            display: block;
+            width: 65px;
+            position: absolute;
+            left: 10px;
+            top: 50%;;
+            transform: translateY(-50%);
+
+            img
+            {
+                display: block;
+                margin: 0;
+                width: 100%;
+                object-fit: contain;
+            }
+
+        }
+
+    }
+}
