@@ -4,13 +4,23 @@ import Headline from "./components/Headline";
 
 import "./App.scss";
 
+const temp =
+  [
+    {
+      fName: "Joe",
+      email: "jdhgvh@hvhd.gg",
+      age: 22,
+      online: true
+    }
+  ];
+
 function App ()
 {
   return (
     <div>
       <Header />
       <main>
-        <Headline header="posts" desc="Click to render posts" />
+        <Headline tempArr={ temp } header="posts" desc="Click to render posts" />
       </main>
     </div>
   );
